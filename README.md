@@ -1,6 +1,6 @@
 # log4js-aliyun
 
-修改自log4js-aliyun-log，适配log4js 2.0以上
+修改至log4js-aliyun-log，适配log4js 2.0以上
 
 # 安装
 
@@ -11,7 +11,7 @@
 ```javascript
 
 {
-      "type": "log4js-aliyun-log",
+      "type": "log4js-aliyun",
       "layout": {
         "type": "pattern",
         "pattern": "%p %c %m"
@@ -35,7 +35,7 @@
 var log4js=require('log4js');
 var cfg={
     appenders:{
-      "type": "log4js-aliyun-log",
+      "type": "log4js-aliyun",
       "layout": {
         "type": "pattern",
         "pattern": "%p %c %m"
