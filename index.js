@@ -1,0 +1,1 @@
+module.exports = require('./lib/log4js-aliyun-log.js');

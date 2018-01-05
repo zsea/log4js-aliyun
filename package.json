@@ -1,0 +1,23 @@
+{
+  "name": "log4js-aliyun",
+  "version": "1.0.2",
+  "description": "log4js-aliyun",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "aliyun",
+    "sls",
+    "log",
+    "log4js",
+    "appender"
+  ],
+  "dependencies": {
+    "aliyun-sdk": "^1.9.14"
+  },
+  "author": "zsea",
+  "license": "MIT",
+  "devDependencies": {}
+}
